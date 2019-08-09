@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/69bd64a9a8.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <title>Boat Ride</title>
 </head>
@@ -13,16 +14,21 @@
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>Home</li>
-            </ul>
-        </nav>
+        <div class="wrapper home-header-flex">
+            <nav class="home-main-nav">
+                <ul class="nav">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
 
-        <h1>Boat Ride <span>Adventures</span></h1>
+
+        <div class=" wrapper home-header-flex-2">
+            <h1 class="home-title">Boat Ride <span>Adventures</span></h1>
+        </div>
 
     </header>
 
@@ -31,51 +37,64 @@
     </div>
 
     <section class="section-2">
-        <div class="section-2-item-1">
-            <i class="fas fa-map-marker-alt"></i>
-            <h2>New Destinations</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum inventore, deserunt esse aut nisi quae est eaque vero enim.</p>
-        </div>
-        <div class="section-2-item-2">
-            <i class="fas fa-copy"></i>
-            <h2>Blog</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum inventore, deserunt esse au nis quae est eaque vero enim.</p>
-        </div>
-        <div class="section-2-item-3">
-            <i class="fas fa-user-friends"></i>
-            <h2>Community</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum inventore, deserunt esse au nisi quae est eaque vero enim.</p>
-        </div>
-        <div class="section-2-item-4">
-            <i class="fas fa-phone"></i>
-            <h2>Getting in Touch</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum i deserunt esse aut nisi quae est eaque vero enim.</p>
+        <div class="wrapper">
+            <div class="home-section-2-top">
+                <div class="home-section-2-item clearfix">
+                    <h2><span class="fas fa-map-marker-alt"></span> New Destinations </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum inventore, deserunt esse aut nisi quae est eaque vero enim.</p>
+                </div>
+                <div class="home-section-2-item">
+                    <h2><span class="fas fa-user-friends"></span> Community</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum inventore, deserunt esse au nis quae est eaque vero enim.</p>
+                </div>
+            </div>
+    
+    
+            <div class="home-section-2-bottom">
+                <div class="home-section-2-item">
+                    <h2><span class="fas fa-copy"></span> Blog</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum inventore, deserunt esse au nisi quae est eaque vero enim.</p>
+                </div>
+                <div class="home-section-2-item">
+                    <h2><span class="fas fa-phone"></span> Getting in touch</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorum i deserunt esse aut nisi quae est eaque vero enim.</p>
+                </div>
+            </div>
         </div>
     </section>
-
-    <div class="section-3-boat-image">
-        <img src="assets/left-image.jpg" alt="beautiful white yacht on a large ocean wave">
-    </div>
 
     <section class="section-3">
 
-        <div class="section-3-item-1">
-            <h2>Our Programs</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nulla amet voluptate eos, perferendis sapiente? Vel illo cumque reiciendis quidem.</p>
-            <button>Read More</button>
+        <div class="wrapper">
+            <div class="home-section-3-top">
+                <div class="home-section-3-item home-section-3-boat-image">
+                    <img class= boat-image-class src="assets/left-image.jpg" alt="beautiful white yacht on a large ocean wave">
+                </div>
+        
+                <div class="home-section-3-item">
+                    <h2>Our Programs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nulla amet voluptate eos, perferendis sapiente? Vel illo cumque reiciendis quidem.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+    
+            <div class="home-section-3-bottom">
+                <div class="home-section-3-item">
+                    <h2>New Locations</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nulla amet voluptate eos, perferendis sapiente? Vel illo cumque reiciendis quidem.</p>
+                    <button>Read More</button>
+                </div>
+    
+                <div class="home-section-3-item home-section-3-boat-image-2">
+                    <img src="assets/right-image.jpg" alt="beautiful white yacht on a large ocean wave">
+                </div>
+            </div>
         </div>
 
-        <div class="section-3-item-2">
-            <h2>New Locations</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nulla amet voluptate eos, perferendis sapiente? Vel illo cumque reiciendis quidem.</p>
-            <button>Read More</button>
-        </div>
+        
     </section>
 
 
-    <div class="section-3-boat-image-2">
-        <img src="assets/right-image.jpg" alt="beautiful white yacht on a large ocean wave">
-    </div>
 
     <section class="section-4">
         <h2>Extra Vacation Days</h2>
