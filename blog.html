@@ -12,83 +12,96 @@
 
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>Home</li>
-            </ul>
-        </nav>
+    <header class="blog-header">
+        <div class="blog-header-flex wrapper">
+            <nav class="home-main-nav">
+                <ul class="nav">
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Home</li>
+                </ul>
+            </nav>
+        </div>
 
-        <h1>Blog</h1>
+        <div class="wrapper">
+            <h1 class="blog-title">Blog</h1>
+        </div>
 
     </header>
 
     <div class="blog-header-boat-image">
-        <img src="assets/blog-post-image.jpg" alt="front of boat that is tied to dock, with ocean blue water.">
+        <img class="blog-boat-image-class" src="assets/blog-post-image.jpg" alt="front of boat that is tied to dock, with ocean blue water.">
     </div>
 
-    <section>
-        <div class="left-side-image">
-            <img src="assets/blog-side-image.jpg" alt="front side of yacht">
-        </div>
-        <div class="left-side-copy">
-            <div class="left-side-copy-1">
-                <h3>Our Mission</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores repellendus pariatur quibusdam
-                    mollitia velit fugiat! Possimus illum praesentium obcaecati officiis.</p>
+    <section class="blog-section">
+        <div class="wrapper blog-left-side">
+            <div class="blog-left-side-image">
+                <img class="blog-left-side-image-z-index"src="assets/blog-side-image.jpg" alt="front side of yacht">
             </div>
-            <h3>Recent Posts</h3>
-            <div class="left-side-copy-2">
-                <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="right-side-blog">
-            <h2>Next Destination</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laborum labore ipsa impedit doloremque natus veniam sunt et fugiat dicta nisi dolorum, rerum quam animi rem fuga perferendis,corrupti error culpa!
-
-            Possimus dolores ut iure est labore architecto tempore nostrum culpa vel totam nesciunt unde, et ull Vel sunt rerum fugiat explicabo odio aspernatur provident dolor quidem, officia tenetur dicta quasi sit!
-            Culpa error tenetur nemo a, nobis debitis corporis expedita consequuntur sequi. Ex iusto unde quidem, officia, consequuntur dolorem nemo possimus exercitationem repellendus dolore molestias adipiscivoluptatem perferendis voluptates, distinctio veritatis vel! Reprehenderit odio   nesciunt molestias sed, sequi earum. 
-
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam velit facilis culpa! Illo itaque soluta eos ea tenetur dolorum saepe fugiat minus dolores. Magni, tenetur itaque. Voluptates nisi dolorvprovident sunt numquam ratione. Similique quaerat, eum quasi impedit est quisquam placeat dolore velit,vlabore sint consequuntur. Laboriosam eum provident praesentium.</p>
-        </div>
-
-        <div class="right-side-comments">
-            <h2>Ne2 Comments</h2>
-            <div class="right-side-comment-1">
-                <img src="assets/comment-1.jpg" alt="some guy">
-                <h3>Tuesday October 9th 2019, by Ali</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aliquid dolore. Officia, quam consequatur vel saepe, quo minima maxime id dolor corrupti eos eaque? Numquam nesciuntvsimilique distinctio vero asperiores natus saepe dolor, fugit dolorem? In distinctio omnis, maxime avaspernatur amet laboriosam necessitatibus possimus porro, sequi eum quibusdam!</p>
-            </div>
-            <div class="right-side-comment-1">
-                <img src="assets/comment-2.jpg" alt="some lady">
-                <h3>Tuesday October 9th 2019, by Ali</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aliquid dolore. Officia,vquam consequatur vel saepe, quo minima maxime id dolor corrupti eos eaque? Numquam nesciunt similique distinctio vero asperiores natus saepe dolor, fugit dolorem? In distinctio omnis, maxime avaspernatur amet laboriosam necessitatibus possimus porro, sequi eum quibusdam!</p>
+            <div class="blog-left-side-copy">
+                <div class="blog-left-side-copy-1">
+                    <h3>Our Mission</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores repellendus pariatur quibusdam
+                        mollitia velit fugiat! Possimus illum praesentium obcaecati officiis.</p>
+                </div>
+                <h3>Recent Posts</h3>
+                <div class="blog-left-side-copy-2">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <form action="">
-            <fieldset>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Name">
-
-                <label for="email">Email</label>
-                <input type="email" placeholder="Email" id="email">
-
-                <label for="comment">Comment</label>
-                <input type="text" name="comment" id="comment" placeholder="comment">
-
-                <button type="submit">Post Comment</button>
-            </fieldset>
-        </form>
+        <!-- <div class="wrapper"> -->
+            <div class="blog-wrapper">
+                <div class="blog-right-side">
+                    <div class="blog-border">
+                        <h2>Next Destination</h2>
+                        <p>Monday, October 20th 2019 by Solaire</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laborum labore ipsa impedit doloremque natus veniam sunt et fugiat dicta nisi dolorum, rerum quam animi rem fuga perferendis,corrupti error culpa!</p>
+            
+                        <p>dolores ut iure est labore architecto tempore nostrum culpa vel totam nesciunt unde, et ull Vel sunt rerum fugiat explicabo odio aspernatur provident dolor quidem, officia tenetur dicta quasi sit!
+                        Culpa error tenetur nemo a, nobis debitis corporis expedita consequuntur sequi. Ex iusto unde quidem, officia, consequuntur dolorem nemo possimus exercitationem repellendus dolore molestias adipiscivoluptatem perferendis voluptates, distinctio veritatis vel! Reprehenderit odio   nesciunt molestias sed, sequi earum.</p>  
+            
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam velit facilis culpa! Illo itaque soluta eos ea tenetur dolorum saepe fugiat minus dolores. Magni, tenetur itaque. Voluptates nisi dolorvprovident sunt numquam ratione. Similique quaerat, eum quasi impedit est quisquam placeat dolore velit,vlabore sint consequuntur. Laboriosam eum provident praesentium.</p>
+                    </div>
+    
+    
+                    <h2>New Comments</h2>
+                    <div class="blog-right-side-comment-1">
+                        <img src="assets/comment-1.jpg" alt="some guy">
+                        <h3>Tuesday October 9th 2019, by Ali</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aliquid dolore. Officia, quam consequatur vel saepe, quo minima maxime id dolor corrupti eos eaque? Numquam nesciuntvsimilique distinctio vero asperiores natus saepe dolor, fugit dolorem? In distinctio omnis, maxime avaspernatur amet laboriosam necessitatibus possimus porro, sequi eum quibusdam!</p>
+                    </div>
+                    <div class="blog-right-side-comment-2">
+                        <img src="assets/comment-2.jpg" alt="some lady">
+                        <h3>Tuesday October 9th 2019, by Ali</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aliquid dolore. Officia,vquam consequatur vel saepe, quo minima maxime id dolor corrupti eos eaque? Numquam nesciunt similique distinctio vero asperiores natus saepe dolor, fugit dolorem? In distinctio omnis, maxime avaspernatur amet laboriosam necessitatibus possimus porro, sequi eum quibusdam!</p>
+                    </div>
+    
+                    <form action="">
+                        <fieldset>
+                            <div class="blog-form-row-flex">
+                                <label for="name"></label>
+                                <input class="blog-form-flex" type="text" name="name" id="name" placeholder="Name">
+                
+                                <label for="email"></label>
+                                <input class="blog-form-flex" type="email" placeholder="Email" id="email">
+                            </div>
+            
+                            <label for="comment"></label>
+                            <input class="blog-form-comment" type="text" name="comment" id="comment" placeholder="comment">
+            
+                            <button type="submit">Post Comment</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
     </section>
 
     <footer>

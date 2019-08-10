@@ -1,0 +1,249 @@
+// HEADER
+
+.blog-header {
+    background-image: url(../assets/blog-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 20px;
+    position: relative;
+}
+
+.blog-header-flex {
+    display: flex;
+    // height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.blog-header-flex-2 {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+nav.home-main-nav {
+    width: 40%;
+    margin-top: 50px;
+}
+
+ul.nav {
+    display: flex;
+    padding: 0;
+    
+}
+
+ul.nav li {
+	padding-right: 50px;
+}
+
+
+.nav li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-style: bold;
+    color: #ffffff;
+    list-style: none;
+
+}
+
+.blog-title {
+    font-family: 'IM Fell English', serif;
+    color: white;
+    font-style: italic;
+    font-size: 8rem;
+    text-transform: uppercase;
+    margin-top: 80px;
+    
+}
+
+
+.blog-header-boat-image {
+    position: absolute;
+    width: 55%;
+    right: 0;
+    bottom: -275px;
+    z-index: 999;
+}
+
+img.blog-boat-image-class {
+    box-shadow: -15px 15px 0px $yellow;
+}
+
+// SECTION
+
+.blog-section {
+    background: $lightblue;
+    position: relative;
+    height: 100%;
+}
+
+.blog-left-side {
+    position: relative;
+}
+
+.blog-left-side-image {
+    padding-top: 200px;
+    width: 35%;
+
+}
+
+.blog-left-side-image-z-index {
+    position: relative;
+    z-index: 999;
+}
+
+.blog-left-side-copy {
+    background: $darkblue;
+    width: 30%;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    height: 120%;
+    padding-top: 300px;
+    h3 {
+        font-family: 'IM Fell English', serif;
+        color: $yellow;
+        font-size: 2.5rem;
+        line-height: 58px;
+        font-style: italic;
+        margin: 0;
+        // text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        padding-left: 40px;
+
+
+    }
+
+}
+
+.blog-left-side-copy p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    // margin: 0 15% 0 15%;
+    padding: 0px;
+    color: white;
+    padding: 0 40px;
+
+}
+
+.blog-left-side-copy-2 ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    // padding: 0px;
+    color: white;
+
+}
+
+.blog-wrapper h2 {
+    font-family: 'IM Fell English', serif;
+    color: $darkblue;
+    font-size: 3.5rem;
+    line-height: 99px;
+    font-style: italic;
+    // padding-top: 200px;
+    // text-align: right;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.blog-right-side-comments h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: $darkblue;
+
+}
+
+.blog-right-side-comments p, .blog-right-side p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: black; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: black;
+
+}
+
+
+.blog-right-side-comments h2 {
+    font-family: 'IM Fell English', serif;
+    color: $darkblue;
+    font-size: 3.5rem;
+    line-height: 99px;
+    font-style: italic;
+    margin-top: 0;
+    // text-align: right;
+    text-transform: uppercase;
+
+}
+
+.blog-wrapper {
+    max-width: 900px;
+    margin-left: 44.5%;
+    margin-top: -232px;
+    // padding-right: 40px;
+
+}
+
+.blog-border {
+    // border-left: 5px solid $yellow;
+    // border-bottom: 5px solid $yellow;
+    box-shadow: -6px 6px 0px $yellow;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    // padding-right: 40px;
+
+}
+
+.blog-form-row-flex {
+    display: flex;
+    // justify-content: space-around;
+    // align-content: center;
+    flex-direction: row;
+}
+
+input {
+    border-bottom: 1px solid $yellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+
+.blog-form-flex {
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+
+.blog-form-comment {
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
