@@ -187,7 +187,6 @@ html {
 .wrapper {
   max-width: 1180px;
   margin: 0 auto;
-  border: 1px solid tomato;
 }
 
 img {
@@ -280,17 +279,17 @@ h1 span {
   position: absolute;
   width: 55%;
   right: 0;
-  bottom: -100px;
+  bottom: -115px;
 }
 
 .section-2 {
   background: #eafefc;
-  padding-top: 175px;
+  padding-top: 165px;
 }
 
 .section-2 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 20px;
   letter-spacing: 1px;
   margin: 0;
@@ -308,10 +307,11 @@ h1 span {
 .home-section-2-top h2, .home-section-2-bottom h2 {
   font-family: 'IM Fell English', serif;
   color: #0d457f;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   line-height: 99px;
   font-style: italic;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .home-section-2-item {
@@ -320,7 +320,7 @@ h1 span {
 }
 
 .home-section-2-bottom {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .fas {
@@ -339,6 +339,17 @@ h1 span {
   padding-top: 20px;
 }
 
+.section-3 p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0px;
+  color: white;
+  text-align: left;
+}
+
 .home-section-3-top, .home-section-3-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -347,19 +358,209 @@ h1 span {
       flex-wrap: wrap;
 }
 
+.home-section-3-top h2, .home-section-3-bottom h2 {
+  font-family: 'IM Fell English', serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 99px;
+  font-style: italic;
+  margin: 0;
+  text-transform: uppercase;
+}
+
 .home-section-3-item {
   width: calc(50% - 20px);
   margin: 10px;
+}
+
+.home-section-3-item button {
+  background: #fdd908;
+  padding: 5px;
+  color: #0d457f;
+  font-family: 'IM Fell English', serif;
+  font-size: 2.5rem;
+  font-style: italic;
+  margin-top: 40px;
 }
 
 img.boat-image-class {
   margin-left: -10px;
   -webkit-box-shadow: 15px 15px 0px #fdd908;
           box-shadow: 15px 15px 0px #fdd908;
+  width: 90%;
 }
 
 .home-section-3-boat-image {
   position: relative;
   left: 0;
   top: -60px;
+}
+
+.go-left {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.go-right {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.home-section-3-boat-image-2 {
+  position: relative;
+  right: -67px;
+  bottom: -32px;
+}
+
+img.boat-image-class-2 {
+  -webkit-box-shadow: -15px 15px 0px #fdd908;
+          box-shadow: -15px 15px 0px #fdd908;
+  width: 90%;
+}
+
+.section-4 {
+  background: #eafefc;
+  padding-top: 60px;
+}
+
+.section-4 h2 {
+  font-family: 'IM Fell English', serif;
+  color: #0d457f;
+  font-size: 3.5rem;
+  line-height: 99px;
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-4 p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: 0 15% 0 15%;
+  padding: 0px;
+  color: #0d457f;
+}
+
+.section-4-button {
+  background: #fdd908;
+  padding: 5px;
+  color: #0d457f;
+  text-align: center;
+  font-family: 'IM Fell English', serif;
+  font-size: 2.5rem;
+  font-style: italic;
+  margin-top: 40px;
+}
+
+.section-4-button-div-to-center {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.section-5 {
+  background: url(../assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.section-6 {
+  background: #eafefc;
+  padding: 60px 0;
+}
+
+.section-6 h2 {
+  font-family: 'IM Fell English', serif;
+  color: #0d457f;
+  font-size: 3.5rem;
+  line-height: 99px;
+  font-style: italic;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.section-6 p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0px;
+  color: #0d457f;
+}
+
+.section-6-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-6-item-left-side {
+  width: 30%;
+}
+
+.section-6-item-right-side {
+  width: 65%;
+}
+
+img.section-6-left-side-image {
+  -webkit-box-shadow: -15px 15px 0px #fdd908;
+          box-shadow: -15px 15px 0px #fdd908;
+}
+
+.section-6-button {
+  background: #fdd908;
+  padding: 5px;
+  color: #0d457f;
+  text-align: center;
+  font-family: 'IM Fell English', serif;
+  font-size: 2.5rem;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.section-7 {
+  background: #0d457f;
+  padding: 60px 0;
+}
+
+.section-7-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-7-gallery {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+footer {
+  background: #fdd908;
+}
+
+footer p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
 }
