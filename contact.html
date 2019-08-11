@@ -4,58 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/69bd64a9a8.js"></script>
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Boat Ride-Blog</title>
+    <title>Boat Ride-Contact</title>
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>Home</li>
-            </ul>
-        </nav>
-        
-        <h1>Get in touch</h1>
+    <header class="contact-header">
+        <div class="contact-header-flex wrapper">
+            <nav class="home-main-nav">
+                <ul class="nav">
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                    <li>Home</li>
+                </ul>
+            </nav>
+        </div>
+            
+        <div class="wrapper">
+            <h1 class="contact-title">Get in touch</h1>
+        </div>
+       
 
     </header>
 
-    <form action="">
-        <fieldset>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Name">
+    <div class="contact-form">
+        <form action="">
+                <fieldset>
+                    <div class="contact-form-row-flex">
+                        <div class="contact-form-yellow-bottom-border-left">
+                            <label for="name"></label>
+                            <input class="contact-form-flex" type="text" name="name" id="name" placeholder="Name">
+                        </div>
+    
+                        <div class="contact-form-yellow-bottom-border-right">
+                            <label for="email"></label>
+                            <input class="contact-form-flex" type="email" placeholder="Email Address" id="email">
+                        </div>
+                    </div>
+    
+                    <div class="contact-form-comment-box-border">
+                        <label for="comment"></label>
+                        <input class="contact-form-comment" type="text" name="comment" id="comment"
+                            placeholder="Message">
+                    </div>
+                    <button class="contact-button" type="submit">Submit</button>
+                </fieldset>
+            </form>
+    </div>
 
-            <label for="email">Email</label>
-            <input type="email" placeholder="Email" id="email">
-
-            <label for="comment">Comment</label>
-            <input type="text" name="comment" id="comment" placeholder="comment">
-
-            <button type="submit">Post Comment</button>
-        </fieldset>
-    </form>
-
-    <section>
-        <div class="social-icons">
-            <ul>
-                <li><i class="fab fa-instagram fa-2x"></i></li>
-                <li><i class="fab fa-facebook-f fa-2x"></i></li>
-                <li></li><i class="fab fa-snapchat-ghost fa-2x"></i></li>
-                <li><i class="fab fa-twitter fa-2x"></i></li>
-            </ul>
-        </div>
-        <div class="email-address">
-            <p>info@email.com</p>
-        </div>
-        <div class="address">
-            <p>123-123-1234</p>
-            <p>123 queen st west</p>
-            <p>toronto, on</p>
-            <p>m5v 2d5</p>
+    <section class="contact-section-2">
+        <div class="wrapper">
+            <div class="blog-social-icons">
+                <ul class="blog-social-icons-flex">
+                    <li><i class="fab fa-instagram fa-2x"></i></li>
+                    <li><i class="fab fa-facebook-f fa-2x"></i></li>
+                    <li><i class="fab fa-snapchat-ghost fa-2x"></i></li>
+                    <li><i class="fab fa-twitter fa-2x"></i></li>
+                </ul>
+            </div>
+            <div class="blog-email-address">
+                <p>info@email.com</p>
+            </div>
+            <div class="blog-address">
+                <p>123-123-1234</p>
+                <p>123 queen st west</p>
+                <p>toronto, on</p>
+                <p>m5v 2d5</p>
+            </div>
         </div>
     </section>
 

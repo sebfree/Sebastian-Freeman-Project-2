@@ -1,0 +1,190 @@
+// HEADER
+
+.contact-header {
+    background-image: url(../assets/contact-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 20px;
+    position: relative;
+}
+
+.contact-header-flex {
+    display: flex;
+    // height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+nav.home-main-nav {
+    width: 40%;
+    margin-top: 50px;
+}
+
+ul.nav {
+    display: flex;
+    padding: 0;
+    
+}
+
+ul.nav li {
+	padding-right: 50px;
+}
+
+
+.nav li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-style: bold;
+    color: #ffffff;
+    list-style: none;
+
+}
+
+h1  {
+    font-family: 'IM Fell English', serif;
+    color: white;
+    font-style: italic;
+    font-size: 8rem;
+    text-transform: uppercase;
+    margin-top: 80px;
+    
+}
+
+.contact-form-row-flex {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+}
+
+input {
+    border-bottom: 1px solid $yellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+    border: none;
+
+}
+
+.contact-form-flex {
+    width: calc(50% - 20px);
+    margin: 10px;
+    
+}
+
+.contact-form-comment {
+    width: calc(100% - 20px);
+    margin: 10px;
+    // height: 100px;
+}
+
+.contact-form-yellow-bottom-border-left {
+    border-bottom: 2px solid $yellow;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.contact-form-yellow-bottom-border-right {
+    border-bottom: 2px solid $yellow;
+    width: 50%;
+    // text-align: right;
+
+}
+
+fieldset {
+    border: none;
+}
+
+.contact-form-comment-box-border {
+    border: 2px solid $yellow;
+    margin: 40px 0;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px 12px 0;
+    background-color: none;
+}
+
+.contact-form input[type=text], .contact-form input[type=email] {
+    background-color: transparent;
+    color: white;
+  }
+
+  .contact-button {
+      width: 100%;
+      text-align: center;
+      background : $yellow;
+      color: $darkblue;
+      font-family: 'IM Fell English', serif;
+      font-size: 2.5rem;
+      font-style: italic;
+      line-height: 41px;
+  }
+
+  .contact-form {
+    background: $darkblue;
+    position: absolute;
+    width: 45%;
+    right: 100px;
+    bottom: -200px;
+    z-index: 999;
+    padding: 50px;
+    box-shadow: 15px 15px 0px $yellow;
+}
+
+// SECTION 2
+
+.contact-section-2 {
+    padding-bottom: 150px;
+    background: $lightblue;
+}
+
+.blog-social-icons-flex {
+    display: flex;
+    flex-direction: row;
+     li {
+         list-style: none;
+         color: $darkblue;
+         padding-right: 15px;
+     }
+}
+
+.blog-email-address, .blog-address {
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    // line-height: 20px;
+    letter-spacing: 1px;
+    color: $darkblue;
+}
+
+.blog-social-icons {
+    padding-top: 80px;
+    padding-bottom: 2px;
+}
+
+.blog-email-address {
+    padding-bottom: 2px;
+}
+
+.blog-address p {
+    margin: 0;
+} 
+
+// .contact-info-flex {
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding-left: 50px;
+//     flex-direction: column;
+
+// }
+
+// .blog-social-icons {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }
+
+
