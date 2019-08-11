@@ -974,7 +974,7 @@ fieldset {
 }
 
 .contact-section-2 {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   background: #eafefc;
 }
 
@@ -997,7 +997,8 @@ fieldset {
 .blog-email-address, .blog-address {
   padding-left: 40px;
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  line-height: 20px;
   letter-spacing: 1px;
   color: #0d457f;
 }
@@ -1013,4 +1014,8 @@ fieldset {
 
 .blog-address p {
   margin: 0;
+}
+
+.contact-form-wrapper {
+  width: 60%;
 }
