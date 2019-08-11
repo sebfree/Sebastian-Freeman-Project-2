@@ -66,7 +66,7 @@ ul.nav li {
     position: absolute;
     width: 55%;
     right: 0;
-    bottom: -275px;
+    bottom: -285px;
     z-index: 999;
 }
 
@@ -203,7 +203,7 @@ img.blog-boat-image-class {
 .blog-border {
     // border-left: 5px solid $yellow;
     // border-bottom: 5px solid $yellow;
-    box-shadow: -6px 6px 0px $yellow;
+    box-shadow: -7px 7px 0px $yellow;
     padding-left: 100px;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -213,7 +213,7 @@ img.blog-boat-image-class {
 
 .blog-form-row-flex {
     display: flex;
-    // justify-content: space-around;
+    justify-content: space-around;
     // align-content: center;
     flex-direction: row;
 }
@@ -224,19 +224,70 @@ input {
     font-size: 1.5rem;
     line-height: 20px;
     letter-spacing: 1px;
+    border: none;
+    // text-align: right;
 
 }
 
 .blog-form-flex {
     width: calc(50% - 20px);
     margin: 10px;
+    
 }
 
 .blog-form-comment {
     width: calc(100% - 20px);
     margin: 10px;
-    height: 100px;
+    // height: 100px;
 }
+
+.blog-form-yellow-bottom-border-left {
+    border-bottom: 2px solid $yellow;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.blog-form-yellow-bottom-border-right {
+    border-bottom: 2px solid $yellow;
+    width: 50%;
+    // text-align: right;
+
+}
+
+fieldset {
+    border: none;
+}
+
+.blog-form-comment-box-border {
+    border: 2px solid $yellow;
+    margin: 40px 0;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px 12px 0;
+    background-color: none;
+}
+
+input[type=text], input[type=email] {
+    background-color: transparent;
+    color: black;
+  }
+
+  .blog-button {
+      width: 100%;
+      text-align: center;
+    //   padding: 0 200px;
+      background : $darkblue;
+      color: $yellow;
+      font-family: 'IM Fell English', serif;
+      font-size: 2.5rem;
+      font-style: italic;
+      line-height: 41px;
+  }
+
+//   input[type=text]:focus {
+//     background-color: lightblue;
+//   }
+
 
 
 
