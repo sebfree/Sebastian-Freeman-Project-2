@@ -7,6 +7,8 @@ header {
     height: 90vh;
     padding-top: 20px;
     position: relative;
+    background-position: center;
+
 }
 
 .home-header-flex {
@@ -31,18 +33,18 @@ nav.home-main-nav {
     margin-top: 50px;
 }
 
-ul.nav {
+ul.header-nav {
     display: flex;
     padding: 0;
     
 }
 
-ul.nav li {
+ul.header-nav li {
 	padding-right: 50px;
 }
 
 
-.nav li {
+.header-nav li {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-style: bold;
@@ -74,7 +76,16 @@ h1 span {
     position: absolute;
     width: 55%;
     right: 0;
-    bottom: -115px;
+    bottom: -80px;
+}
+
+label {
+	font-size: 40px;
+	display: none;
+}
+
+#toggle {
+	display: none;
 }
 
 // SECTION 2
@@ -100,7 +111,7 @@ h1 span {
         h2 {
             font-family: 'IM Fell English', serif;
             color: $darkblue;
-            font-size: 3.5rem;
+            font-size: 3rem;
             line-height: 99px;
             font-style: italic;
             margin: 0;
@@ -206,6 +217,10 @@ img.boat-image-class{
     padding-right: 50px;
 }
 
+.go-right-hidden {
+    display: none;
+}
+
 .home-section-3-boat-image-2 {
     position: relative;
     right: -67px;
@@ -271,6 +286,7 @@ background: url(../assets/banner.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 height: 60vh;
+background-position: center;
 
 }
 
@@ -374,6 +390,153 @@ footer {
             padding: 0;
         }
 }
+
+
+// RESPONSIVE DESIGN
+
+@media (max-width: 1030px) {
+
+	.header-boat-image {
+		display: none;
+
+    }
+    
+    .section-2 {
+        padding-top: 50px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .header-boat-image {
+        bottom: -35px;
+    }
+
+}
+
+
+
+@media (max-width: 786px) {
+
+
+header {
+    height: 60vh;
+}
+
+ul.header-nav {
+    display: none;
+    padding: 0;
+        
+}
+
+    
+.home-main-nav label {
+    display: block;
+    padding-right: 0px;
+}
+    
+.home-main-nav {
+    margin: 0 50px 0 0;
+}
+    
+.header-nav {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+    
+.header-nav a {
+    display: block;
+    margin: 0;
+    padding: 3px;
+}
+    
+    
+#toggle:checked + .header-nav {
+    display: block;
+    
+}
+
+.home-section-3-boat-image {
+    position: static;
+}
+
+.home-section-3-item {
+    width: 100%;
+    margin: 10px;
+    h2 {
+        text-align: center;
+    }
+}
+
+.button-to-center-responsive {
+    text-align: center;
+
+}
+
+    
+img.boat-image-class {
+    width: 100%;
+
+}
+
+.home-section-3-boat-image-2 {
+    position: static;
+
+}
+
+img.boat-image-class-2 {
+    width: 100%;
+
+}
+
+.go-left {
+    padding: 0 0 30px 0;
+}
+
+.go-right {
+    display: none;
+}
+
+.go-right-hidden {
+    display: block;
+
+}
+
+.home-section-2-bottom {
+    padding-bottom: 50px;
+
+    }
+
+.section-3 {
+    padding-top: 60px;
+}
+  
+.section-4 {
+    padding-top: 50px;
+}
+
+.section-4 p {
+     margin: 0;
+}
+
+.go-right-hidden {
+    padding-bottom: 50px;
+}
+
+.section-6 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+}
+
+
+
+
+
 
 
 
