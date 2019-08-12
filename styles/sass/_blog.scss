@@ -288,6 +288,46 @@ input[type=text], input[type=email] {
 //     background-color: lightblue;
 //   }
 
+// RESPONSIVE DESIGN
+
+@media (max-width: 1160px) {
+
+    .blog-left-side-copy {
+        padding-top: 265px;
+    }
+}
+
+@media (max-width: 1080px) {
+
+	.blog-header-boat-image {
+		display: none;
+
+    }
+    
+    .blog-left-side-image {
+        padding-top: 50px;
+    }
+
+    .blog-left-side-copy {
+        padding-top: 60px;
+        height: 130%;
+    }
+
+    .blog-wrapper {
+        margin-top: -315px;
+    }
+}
+
+@media (max-width: 965px) {
+
+    .blog-left-side: {
+        display: none;
+    }
+
+}
+
+
+
 
 
 

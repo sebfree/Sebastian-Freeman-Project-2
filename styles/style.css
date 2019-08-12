@@ -996,6 +996,28 @@ input[type=text], input[type=email] {
   line-height: 41px;
 }
 
+@media (max-width: 1160px) {
+  .blog-left-side-copy {
+    padding-top: 265px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .blog-header-boat-image {
+    display: none;
+  }
+  .blog-left-side-image {
+    padding-top: 50px;
+  }
+  .blog-left-side-copy {
+    padding-top: 60px;
+    height: 130%;
+  }
+  .blog-wrapper {
+    margin-top: -315px;
+  }
+}
+
 .contact-header {
   background-image: url(../assets/contact-header.jpg);
   background-repeat: no-repeat;
