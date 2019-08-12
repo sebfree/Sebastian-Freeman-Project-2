@@ -688,6 +688,46 @@ footer p {
   }
 }
 
+@media (max-width: 380px) {
+  .section-2 {
+    padding-top: 20px;
+  }
+  .home-title {
+    font-size: 5rem;
+  }
+  #nav-responsive-margin {
+    margin: 0;
+  }
+  .home-section-2-item {
+    width: 100%;
+  }
+  .section-5 {
+    height: 40vh;
+  }
+  .home-section-2-top h2, .home-section-2-bottom h2 {
+    margin-bottom: -25px;
+  }
+  .section-6 {
+    padding: 50px 0;
+  }
+  .section-6-item-left-side {
+    display: none;
+  }
+  .section-6-item-right-side {
+    width: 100%;
+  }
+  .section-6 h2 {
+    line-height: 55px;
+  }
+  .section-7 {
+    display: none;
+  }
+  footer {
+    background: #0d457f;
+    color: white;
+  }
+}
+
 .blog-header {
   background-image: url(../assets/blog-header.jpg);
   background-repeat: no-repeat;
