@@ -14,7 +14,9 @@
     <header class="contact-header">
         <div class="contact-header-flex wrapper">
             <nav class="home-main-nav">
-                <ul class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <ul class="header-nav" id="#nav-responsive-margin">
                     <li>Home</li>
                     <li>Blog</li>
                     <li>Contact</li>
@@ -30,30 +32,32 @@
 
     </header>
 
-    <div class="contact-form contact-form-wrapper">
-        <form action="">
-                <fieldset>
-                    <div class="contact-form-row-flex">
-                        <div class="contact-form-yellow-bottom-border-left">
-                            <label for="name"></label>
-                            <input class="contact-form-flex" type="text" name="name" id="name" placeholder="Name">
+    <section class="contact-form-responsive">
+        <div class="contact-form contact-form-wrapper">
+            <form action="">
+                    <fieldset>
+                        <div class="contact-form-row-flex">
+                            <div class="contact-form-yellow-bottom-border-left">
+                                <label for="name"></label>
+                                <input class="contact-form-flex" type="text" name="name" id="name" placeholder="Name">
+                            </div>
+        
+                            <div class="contact-form-yellow-bottom-border-right">
+                                <label for="email"></label>
+                                <input class="contact-form-flex" type="email" placeholder="Email" id="email">
+                            </div>
                         </div>
-    
-                        <div class="contact-form-yellow-bottom-border-right">
-                            <label for="email"></label>
-                            <input class="contact-form-flex" type="email" placeholder="Email Address" id="email">
+        
+                        <div class="contact-form-comment-box-border">
+                            <label for="comment"></label>
+                            <input class="contact-form-comment" type="text" name="comment" id="comment"
+                                placeholder="Message">
                         </div>
-                    </div>
-    
-                    <div class="contact-form-comment-box-border">
-                        <label for="comment"></label>
-                        <input class="contact-form-comment" type="text" name="comment" id="comment"
-                            placeholder="Message">
-                    </div>
-                    <button class="contact-button" type="submit">Submit</button>
-                </fieldset>
-            </form>
-    </div>
+                        <button class="contact-button" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+        </div>
+    </section>
 
     <section class="contact-section-2">
         <div class="wrapper">
