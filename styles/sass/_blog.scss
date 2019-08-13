@@ -12,7 +12,6 @@
 
 .blog-header-flex {
     display: flex;
-    // height: 100%;
     flex-direction: column;
     justify-content: flex-start;
 
@@ -113,7 +112,6 @@ img.blog-boat-image-class {
         line-height: 58px;
         font-style: italic;
         margin: 0;
-        // text-align: center;
         text-transform: uppercase;
         letter-spacing: 1.3px;
         padding-left: 40px;
@@ -128,7 +126,6 @@ img.blog-boat-image-class {
     font-size: 1.5rem;
     line-height: 20px;
     letter-spacing: 1px;
-    // margin: 0 15% 0 15%;
     padding: 0px;
     color: white;
     padding: 0 40px;
@@ -140,7 +137,6 @@ img.blog-boat-image-class {
     font-size: 1.5rem;
     line-height: 20px;
     letter-spacing: 1px;
-    // padding: 0px;
     color: white;
 
 }
@@ -151,8 +147,6 @@ img.blog-boat-image-class {
     font-size: 3.5rem;
     line-height: 99px;
     font-style: italic;
-    // padding-top: 200px;
-    // text-align: right;
     text-transform: uppercase;
     margin: 0;
 }
@@ -188,7 +182,6 @@ img.blog-boat-image-class {
     line-height: 99px;
     font-style: italic;
     margin-top: 0;
-    // text-align: right;
     text-transform: uppercase;
 
 }
@@ -197,25 +190,20 @@ img.blog-boat-image-class {
     max-width: 900px;
     margin-left: 44.5%;
     margin-top: -232px;
-    // padding-right: 40px;
 
 }
 
 .blog-border {
-    // border-left: 5px solid $yellow;
-    // border-bottom: 5px solid $yellow;
     box-shadow: -7px 7px 0px $yellow;
     padding-left: 100px;
     padding-bottom: 50px;
     padding-top: 50px;
-    // padding-right: 40px;
 
 }
 
 .blog-form-row-flex {
     display: flex;
     justify-content: space-around;
-    // align-content: center;
     flex-direction: row;
 }
 
@@ -226,7 +214,6 @@ input {
     line-height: 20px;
     letter-spacing: 1px;
     border: none;
-    // text-align: right;
 
 }
 
@@ -239,7 +226,6 @@ input {
 .blog-form-comment {
     width: calc(100% - 20px);
     margin: 10px;
-    // height: 100px;
 }
 
 .blog-form-yellow-bottom-border-left {
@@ -251,7 +237,6 @@ input {
 .blog-form-yellow-bottom-border-right {
     border-bottom: 2px solid $yellow;
     width: 50%;
-    // text-align: right;
 
 }
 
@@ -285,9 +270,6 @@ input[type=text], input[type=email] {
       line-height: 41px;
   }
 
-//   input[type=text]:focus {
-//     background-color: lightblue;
-//   }
 
 // RESPONSIVE DESIGN
 
@@ -299,6 +281,8 @@ input[type=text], input[type=email] {
 }
 
 @media (max-width: 1080px) {
+
+    // Resize without floating boat image
 
 	.blog-header-boat-image {
 		display: none;
@@ -320,6 +304,8 @@ input[type=text], input[type=email] {
 }
 
 @media (max-width: 965px) {
+
+    // Stack blog section
 
     .blog-left-side {
         display: none;
@@ -349,17 +335,18 @@ input[type=text], input[type=email] {
         height: 70vh;
     }
 
+    .blog-title {
+        margin-top: 150px;
+    }
+
+    // Hamburger
+
     ul.header-nav {
         display: none;
         padding: 0;
             
     }
-
-    .blog-title {
-        margin-top: 250px;
-    }
-    
-        
+      
     .home-main-nav label {
         display: block;
         padding-right: 0px;
@@ -397,6 +384,8 @@ input[type=text], input[type=email] {
 
 @media (max-width: 500px) {
 
+    // Fix comment section
+
     .blog-border {
         box-shadow: none;
         padding-top: 30px;
@@ -417,21 +406,10 @@ input[type=text], input[type=email] {
     }
 
     .blog-wrapper h2 {
-        font-size: 3.2rem;
+        font-size: 3.1rem;
     }
 
-    .blog-title {
-        margin-top: 200px;
-    }
 }
-
-
-
-
-
-
-
-
 
 
 

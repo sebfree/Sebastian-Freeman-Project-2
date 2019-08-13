@@ -13,7 +13,6 @@ header {
 
 .home-header-flex {
     display: flex;
-    // height: 100%;
     flex-direction: column;
     justify-content: flex-start;
 
@@ -164,7 +163,6 @@ label {
 .home-section-3-top, .home-section-3-bottom {
     display: flex;
     flex-wrap: wrap;
-    // width: 30%;
         h2 {
             font-family: 'IM Fell English', serif;
             color: white;
@@ -240,7 +238,6 @@ img.boat-image-class-2{
 .section-4 {
     background: $lightblue;
     padding-top: 60px;
-    // text-align: center;
         h2 {
             font-family: 'IM Fell English', serif;
             color: $darkblue;
@@ -261,8 +258,7 @@ img.boat-image-class-2{
     letter-spacing: 1px;
     margin: 0 15% 0 15%;
     padding: 0px;
-    color: $darkblue;
-    // width: 75%; 
+    color: $darkblue; 
 }
 .section-4-button {
     background: $yellow;
@@ -361,9 +357,6 @@ img.section-6-left-side-image {
 .section-7 {
     background: $darkblue;
     padding: 60px 0;
-    // flex-direction: row;
-    // justify-content: space-between;
-    // align-content: center;
 }
 
 .section-7-container {
@@ -395,6 +388,15 @@ footer {
 
 // RESPONSIVE DESIGN
 
+
+@media (max-width: 1200px) {
+
+    .header-boat-image {
+        bottom: -35px;
+    }
+
+}
+
 @media (max-width: 1030px) {
 
 	.header-boat-image {
@@ -407,156 +409,161 @@ footer {
     }
 }
 
+@media (max-width: 920px) {
 
-@media (max-width: 1200px) {
+    // Stack section 3
 
-    .header-boat-image {
-        bottom: -35px;
+    .home-section-3-boat-image {
+        position: static;
     }
-
-}
-
-
-
-@media (max-width: 786px) {
-
-
-header {
-    height: 60vh;
-}
-
-ul.header-nav {
-    display: none;
-    padding: 0;
-        
-}
-
     
-.home-main-nav label {
-    display: block;
-    padding-right: 0px;
-}
+    .home-section-3-item {
+        width: 100%;
+        margin: 10px;
+        h2 {
+            text-align: center;
+        }
+    }
     
-.home-main-nav {
-    margin: 0 50px 0 0;
-}
-    
-.header-nav {
-    text-align: center;
-    width: 100%;
-    display: none;
-}
-    
-.header-nav a {
-    display: block;
-    margin: 0;
-    padding: 3px;
-}
-    
-    
-#toggle:checked + .header-nav {
-    display: block;
-    
-}
-
-.home-section-3-boat-image {
-    position: static;
-}
-
-.home-section-2-item {
-    width: 100%;
-  }
-
-  .home-section-2-top h2, .home-section-2-bottom h2 {
-    margin-bottom: -25px;
-}
-
-.home-section-3-item {
-    width: 100%;
-    margin: 10px;
-    h2 {
+    .button-to-center-responsive {
         text-align: center;
+    
     }
+    
+        
+    img.boat-image-class {
+        width: 100%;
+    
+    }
+    
+    .home-section-3-boat-image-2 {
+        position: static;
+    
+    }
+    
+    img.boat-image-class-2 {
+        width: 100%;
+    
+    }
+    
+    .go-left {
+        padding: 0 0 30px 0;
+    }
+    
+    .go-right {
+        display: none;
+    }
+    
+    .go-right-hidden {
+        display: block;
+        padding-bottom: 50px;
+    
+    }
+    
+    .section-3 {
+        padding-top: 60px;
+    }
+
 }
 
-.button-to-center-responsive {
-    text-align: center;
 
-}
+
+@media (max-width: 787px) {
+
+
+    header {
+        height: 60vh;
+    }
+
+    // Hamburger
+
+    ul.header-nav {
+        display: none;
+        padding: 0;
+            
+    }
 
     
-img.boat-image-class {
-    width: 100%;
+    .home-main-nav label {
+        display: block;
+        padding-right: 0px;
+    }
+        
+    .home-main-nav {
+        margin: 0 50px 0 0;
+    }
 
-}
+    .header-nav {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+        
+    .header-nav a {
+        display: block;
+        margin: 0;
+        padding: 3px;
+    }
+        
+        
+    #toggle:checked + .header-nav {
+        display: block;
+        
+    }
 
-.home-section-3-boat-image-2 {
-    position: static;
+    // General
 
-}
+    .home-section-2-item {
+        width: 100%;
+    }
 
-img.boat-image-class-2 {
-    width: 100%;
-
-}
-
-.go-left {
-    padding: 0 0 30px 0;
-}
-
-.go-right {
-    display: none;
-}
-
-.go-right-hidden {
-    display: block;
-
-}
-
-.home-section-2-bottom {
-    padding-bottom: 50px;
+    .home-section-2-bottom {
+        padding-bottom: 50px;
 
     }
 
-.section-3 {
-    padding-top: 60px;
-}
-  
-.section-4 {
-    padding-top: 50px;
-}
-
-.section-4 p {
-     margin: 0;
-}
-
-.go-right-hidden {
-    padding-bottom: 50px;
-}
-
-.section-6 {
-    padding-top: 30px;
-    padding-bottom: 50px;
-    h2 {
-        font-size: 3rem;
+    .home-section-2-top h2, .home-section-2-bottom h2 {
+        margin-bottom: -25px;
+    }
+    
+    .section-4 {
+        padding-top: 50px;
     }
 
+    .section-4 p {
+        margin: 0;
+    }
 
-}
+    .section-6 {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        h2 {
+            font-size: 3rem;
+        }
+
+    }
+
+    .home-header-flex-2 {
+        height: 55%;
+    }
 
 }
 
 
 @media (max-width: 516px) {
 
-.home-title {
-    font-size: 5rem; 
+    // Reduce size of main title
 
-    }
+    .home-title {
+        font-size: 5rem; 
+
+        }
 
 }
 
 @media (max-width: 660px) {
+
+// Stack section 6
     .section-6-item-left-side {
         display: none;
     
@@ -570,6 +577,7 @@ img.boat-image-class-2 {
         line-height: 50px;
     }
 
+ // Remove bottom images
     .section-7 {
         display: none;
     }
@@ -577,6 +585,8 @@ img.boat-image-class-2 {
 }
 
 @media (max-width: 389px) {
+
+    // General touch-ups
 
     .section-2 {
         padding-top: 20px;
@@ -615,19 +625,4 @@ img.boat-image-class-2 {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 

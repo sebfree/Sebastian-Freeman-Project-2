@@ -17,7 +17,6 @@ html {
     max-width: 1180px;
 	margin: 0 auto;
 	width: 90%;
-	// border: 1px solid tomato;
 
 }
 
@@ -26,11 +25,15 @@ img {
 	max-height: 100%;
 }
 
+// header nav
+
 a {
 	text-decoration: none;
 	color: white;
 
 }
+
+
 
 // Nav underline
 
@@ -55,7 +58,7 @@ a {
 	transform: translate(-50%, 0) scaleX(1);
   }
 
-// Responsive fonts
+// Responsive font-zie
 
 @media (max-width: 1300px) {
 
