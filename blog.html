@@ -15,13 +15,15 @@
 
     <header class="blog-header">
         <div class="blog-header-flex wrapper">
-            <nav class="home-main-nav">
-                <ul class="nav">
-                    <li>Home</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li>Home</li>
-                </ul>
+            <nav class="home-main-nav" id="nav-responsive-margin">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                    <ul class="header-nav">
+                        <li>Home</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                        <li>Home</li>
+                    </ul>
             </nav>
         </div>
 
@@ -72,42 +74,44 @@
                 </div>
 
 
-                <h2>New Comments</h2>
-                <div class="blog-right-side-comment-1">
-                    <img src="assets/comment-1.jpg" alt="some guy">
-                    <h3>Tuesday October 9th 2019, by Ali</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aliquid dolore. Officia, quam consequatur vel saepe, quo minima maxime id dolor corrupti eos eaque? Numquam nesciuntvsimilique distinctio vero asperiores natus saepe dolor, fugit dolorem? In distinctio omnis, maxime avaspernatur amet laboriosam necessitatibus possimus porro, sequi eum quibusdam!
-                    </p>
-                </div>
-                <div class="blog-right-side-comment-2">
-                    <img src="assets/comment-2.jpg" alt="some lady">
-                    <h3>Tuesday October 9th 2019, by Ali</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aliquid dolore. Officia,vquam consequatur vel saepe, quo minima maxime id dolor corrupti eos eaque? Numquam nesciunt similique distinctio vero asperiores natus saepe dolor, fugit dolorem? In distinctio omnis, maxime avaspernatur amet laboriosam necessitatibus possimus porro, sequi eum quibusdam!
-                    </p>
-                </div>
-
-                <form action="">
-                    <fieldset>
-                        <div class="blog-form-row-flex">
-                            <div class="blog-form-yellow-bottom-border-left">
-                                <label for="name"></label>
-                                <input class="blog-form-flex" type="text" name="name" id="name" placeholder="Name">
+                <div class="blog-comment-section">
+                    <h2>New Comments</h2>
+                    <div class="blog-right-side-comment-1">
+                        <img src="assets/comment-1.jpg" alt="some guy">
+                        <h3>Tuesday October 9th 2019, by Ali</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aliquid dolore. Officia, quam consequatur vel saepe, quo minima maxime id dolor corrupti eos eaque? Numquam nesciuntvsimilique distinctio vero asperiores natus saepe dolor, fugit dolorem? In distinctio omnis, maxime avaspernatur amet laboriosam necessitatibus possimus porro, sequi eum quibusdam!
+                        </p>
+                    </div>
+                    <div class="blog-right-side-comment-2">
+                        <img src="assets/comment-2.jpg" alt="some lady">
+                        <h3>Tuesday October 9th 2019, by Ali</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repudiandae aliquid dolore. Officia,vquam consequatur vel saepe, quo minima maxime id dolor corrupti eos eaque? Numquam nesciunt similique distinctio vero asperiores natus saepe dolor, fugit dolorem? In distinctio omnis, maxime avaspernatur amet laboriosam necessitatibus possimus porro, sequi eum quibusdam!
+                        </p>
+                    </div>
+    
+                    <form action="">
+                        <fieldset>
+                            <div class="blog-form-row-flex">
+                                <div class="blog-form-yellow-bottom-border-left">
+                                    <label for="name"></label>
+                                    <input class="blog-form-flex" type="text" name="name" id="name" placeholder="Name">
+                                </div>
+    
+                                <div class="blog-form-yellow-bottom-border-right">
+                                    <label for="email"></label>
+                                    <input class="blog-form-flex" type="email" placeholder="Email" id="email">
+                                </div>
                             </div>
-
-                            <div class="blog-form-yellow-bottom-border-right">
-                                <label for="email"></label>
-                                <input class="blog-form-flex" type="email" placeholder="Email" id="email">
+    
+                            <div class="blog-form-comment-box-border">
+                                <label for="comment"></label>
+                                <input class="blog-form-comment" type="text" name="comment" id="comment"
+                                    placeholder="Comment">
                             </div>
-                        </div>
-
-                        <div class="blog-form-comment-box-border">
-                            <label for="comment"></label>
-                            <input class="blog-form-comment" type="text" name="comment" id="comment"
-                                placeholder="Comment">
-                        </div>
-                        <button class="blog-button" type="submit">Post Comment</button>
-                    </fieldset>
-                </form>
+                            <button class="blog-button" type="submit">Post Comment</button>
+                        </fieldset>
+                    </form>
+                </div>
 
             </div>
         </div>

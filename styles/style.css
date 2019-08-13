@@ -732,6 +732,7 @@ footer p {
   background-image: url(../assets/blog-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 90vh;
   padding-top: 20px;
   position: relative;
@@ -1015,6 +1016,75 @@ input[type=text], input[type=email] {
   }
   .blog-wrapper {
     margin-top: -315px;
+  }
+}
+
+@media (max-width: 965px) {
+  .blog-left-side {
+    display: none;
+  }
+  .blog-wrapper {
+    max-width: 1180px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: -180px;
+  }
+  .blog-border {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-header {
+    height: 70vh;
+  }
+  ul.header-nav {
+    display: none;
+    padding: 0;
+  }
+  .home-main-nav label {
+    display: block;
+    padding-right: 0px;
+  }
+  .home-main-nav {
+    margin: 0 50px 0 0;
+  }
+  .header-nav {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .header-nav a {
+    display: block;
+    margin: 0;
+    padding: 3px;
+  }
+  #toggle:checked + .header-nav {
+    display: block;
+  }
+  #nav-responsive-margin {
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .blog-border {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .blog-wrapper {
+    margin-left: 0;
+  }
+  .blog-comment-section {
+    padding-left: 50px;
+  }
+  fieldset {
+    padding-bottom: 40px;
+  }
+  .blog-wrapper h2 {
+    font-size: 3.2rem;
   }
 }
 
