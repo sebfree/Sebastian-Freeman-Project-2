@@ -637,7 +637,7 @@ footer p {
   }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 950px) {
   .home-section-3-boat-image {
     position: static;
   }
@@ -672,6 +672,9 @@ footer p {
   }
   .section-3 {
     padding-top: 60px;
+  }
+  .section-4 p {
+    margin: 0;
   }
 }
 
@@ -715,9 +718,6 @@ footer p {
   .section-4 {
     padding-top: 50px;
   }
-  .section-4 p {
-    margin: 0;
-  }
   .section-6 {
     padding-top: 30px;
     padding-bottom: 50px;
@@ -727,12 +727,6 @@ footer p {
   }
   .home-header-flex-2 {
     height: 55%;
-  }
-}
-
-@media (max-width: 516px) {
-  .home-title {
-    font-size: 5rem;
   }
 }
 
@@ -748,6 +742,12 @@ footer p {
   }
   .section-7 {
     display: none;
+  }
+}
+
+@media (max-width: 516px) {
+  .home-title {
+    font-size: 5rem;
   }
 }
 
@@ -1048,6 +1048,24 @@ input[type=text], input[type=email] {
   line-height: 41px;
 }
 
+@media (max-width: 1400px) {
+  .blog-border {
+    margin-left: -1px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .blog-border {
+    margin-left: -1.5px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .blog-border {
+    margin-left: -2px;
+  }
+}
+
 @media (max-width: 1160px) {
   .blog-left-side-copy {
     padding-top: 265px;
@@ -1266,10 +1284,10 @@ fieldset {
 .contact-button {
   width: 100%;
   text-align: center;
-  background: #fdd908;
   color: #0d457f;
-  font-family: 'IM Fell English', serif;
+  background: #fdd908;
   font-size: 2.5rem;
+  font-family: 'IM Fell English', serif;
   font-style: italic;
   line-height: 41px;
 }

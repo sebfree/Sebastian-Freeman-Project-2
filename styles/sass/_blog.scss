@@ -261,7 +261,6 @@ input[type=text], input[type=email] {
   .blog-button {
       width: 100%;
       text-align: center;
-    //   padding: 0 200px;
       background : $darkblue;
       color: $yellow;
       font-family: 'IM Fell English', serif;
@@ -273,7 +272,31 @@ input[type=text], input[type=email] {
 
 // RESPONSIVE DESIGN
 
+// box shadow alignments
+
+@media (max-width: 1400px){
+    .blog-border {
+        margin-left: -1px;
+    }
+}
+
+@media (max-width: 1300px){
+    .blog-border {
+        margin-left: -1.5px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .blog-border {
+        margin-left: -2px;
+    }
+}
+
+// 
+
 @media (max-width: 1160px) {
+
+// resize copy box
 
     .blog-left-side-copy {
         padding-top: 265px;
@@ -282,7 +305,7 @@ input[type=text], input[type=email] {
 
 @media (max-width: 1080px) {
 
-    // Resize without floating boat image
+// Resize without floating boat image
 
 	.blog-header-boat-image {
 		display: none;
@@ -305,7 +328,7 @@ input[type=text], input[type=email] {
 
 @media (max-width: 965px) {
 
-    // Stack blog section
+// Stack blog section
 
     .blog-left-side {
         display: none;
@@ -327,9 +350,13 @@ input[type=text], input[type=email] {
 
 @media (max-width: 768px) {
 
+// fix blog wrapper
+
     .blog-wrapper {
         margin-top: -80px;
     }
+
+// Header adjustments
 
     .blog-header {
         height: 70vh;
@@ -339,7 +366,7 @@ input[type=text], input[type=email] {
         margin-top: 150px;
     }
 
-    // Hamburger
+// Hamburger
 
     ul.header-nav {
         display: none;
@@ -384,7 +411,7 @@ input[type=text], input[type=email] {
 
 @media (max-width: 500px) {
 
-    // Fix comment section
+// Fix comment section
 
     .blog-border {
         box-shadow: none;
